@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Suite" parallel="tests" thread-count="2">
+    <test name="iPhone Test">
+        <classes>
+            <class name="TestCase.AmazonTest">
+                <methods>
+                    <include name="iPhoneTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Galaxy Test">
+        <classes>
+            <class name="TestCase.AmazonTest">
+                <methods>
+                    <include name="galaxyTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
