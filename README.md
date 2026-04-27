@@ -22,9 +22,12 @@ ChromeDriver
 📁 Project Structure
 TestMu-AI-Assignment/
 │── src/
-│   ├── Pages/          # Page Object Model classes
-│   ├── TestCase/       # Test classes
-│   └── Base/           # BaseTest (Driver setup)
+│   ├── Pages/           # Page Object Model classes
+             |-BaseTest  # BaseTest (Driver setup)
+             |-AmazonPage
+│   ├── TestCase/
+                |-AmazonTest  # Test classes
+│            
 │
 │── testng.xml          # TestNG configuration
 │── pom.xml             # Maven dependencies
