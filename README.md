@@ -1,4 +1,4 @@
-# 📦 Amazon Automation Testing Project
+#  Amazon Automation Testing Project
 
 ## Overview
 This project automates the Amazon website using Selenium WebDriver and TestNG.
@@ -46,7 +46,7 @@ Make sure you have installed:
 
 ---
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 Clone the repository:
 ```
@@ -65,7 +65,7 @@ mvn clean install
 
 ---
 
-## ▶ How to Run Tests
+##  How to Run Tests
 
 Run using TestNG XML:
 ```
